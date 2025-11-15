@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data e Checkpoints
+data/
+checkpoints/
+*.bin
+*.pt
+!examples/*.pt
+*.pth
+
+# Logs
+*.log
+wandb/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tokenizer cache
+*_tokenized.bin
+tokenizer_custom.*
+
+# Examples output
+examples/exemplo_checkpoint.pt
+examples/modelo_finetuned.pt
