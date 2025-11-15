@@ -38,12 +38,15 @@ venv.bak/
 .ipynb_checkpoints
 
 # Data e Checkpoints
-data/
-checkpoints/
+/data/
+/checkpoints/
 *.bin
 *.pt
 !examples/*.pt
 *.pth
+
+# Mas permite o módulo llm_gpt/data/
+!llm_gpt/data/
 
 # Logs
 *.log
