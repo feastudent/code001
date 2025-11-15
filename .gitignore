@@ -63,3 +63,6 @@ tokenizer_custom.*
 # Examples output
 examples/exemplo_checkpoint.pt
 examples/modelo_finetuned.pt
+
+# Pip installation artifacts
+=*
